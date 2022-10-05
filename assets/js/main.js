@@ -11,5 +11,7 @@ const favorite_color = prompt('Qual è il tuo colore preferito?')
 
 
 // Infine scrivi sulla pagina nomecognomecolorepreferito22
+const password = firstName + surname +favorite_color + '22'
 
+document.getElementById('password').innerHTML = `Ciao ${firstName}, la tua password è: ${password}`
 
